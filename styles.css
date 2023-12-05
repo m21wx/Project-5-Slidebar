@@ -1,0 +1,51 @@
+*{
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+	text-decoration: none;
+}
+
+ul{
+	list-style:none;
+}
+.navBar{
+	position: relative;
+	overflow:hidden;
+	background: aliceblue;
+}
+.navBar .close{
+	position: absolute;
+    right: 30px;
+    font-size: 25px;
+    color: #00ffe7;
+    cursor: pointer;	
+}
+
+.navBar .boxNav{
+	    /* position: absolute; */
+    top: 0;
+    background: #04fee6;
+    padding: 10px;
+    width: 102px;
+    position: relative;
+    left: -112px;
+   transition: 3s;
+}
+.navBar .boxNav.active{
+	    width: 50%;
+		left: 0;
+
+}
+.navBar .boxNav .close-2{
+    position: absolute;
+    right: 1px;
+    top: 0;
+    color: #ff0000;
+    font-size: 30px;
+	cursor: pointer;
+}
+.navBar .boxNav  ul li{
+    padding: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
